@@ -1,0 +1,40 @@
+.parent-payment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+.pay-form{
+    padding: 3rem;
+    border: 1px solid orange;
+    width: 30%;
+}
+
+.pay-form > div{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.paymentInput {
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    outline: none;
+    margin-left: 2rem;
+  }
+
+
+
+.cardinfo{
+    text-align: center;
+    font-weight: bold;
+}

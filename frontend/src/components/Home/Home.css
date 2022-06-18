@@ -1,0 +1,228 @@
+.parent {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background-color: white;
+  padding: 0.2rem 0rem;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-around;
+
+  align-items: flex-start;
+}
+
+.topHeadRightSelectors {
+  display: flex;
+  width: 9rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 6.5rem;
+  margin-top: 0;
+}
+
+.link {
+  text-decoration: none;
+  /* //problem */
+  color: black;
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.logoC {
+  width: 7rem;
+  height: 5rem;
+  margin-top: 0rem;
+  border-radius: 0;
+}
+.searchbar {
+  width: 25rem;
+  height: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 0.75rem;
+  margin-right: 20rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2rem;
+}
+
+.searchicon {
+  margin-left: 1rem;
+}
+
+.searchBarInput {
+  outline: none;
+  border: none;
+  width: inherit;
+  padding: 0.56rem;
+  background-color: transparent;
+  color: black;
+  border-radius: 0.75rem;
+  font-size: 0.75rem;
+  margin-bottom: 0.9rem;
+}
+
+.bottomHeader {
+}
+.BotHeadCategories {
+  display: flex;
+  width: 22rem;
+  justify-content: space-between;
+  margin-left: 8.5rem;
+  margin-top: 0.75rem;
+}
+
+#homeCoverImage {
+  width: 100%;
+  height: 45vh;
+  margin-top: 0.75rem;
+  border-radius: 0;
+}
+
+.customerSupport {
+  display: flex;
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  width: 100vw;
+  padding: 1.5rem;
+}
+
+.custSupp {
+  display: flex;
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.custSuppDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  word-wrap: break-word;
+  margin-left: 0.55rem;
+}
+
+.custSuppDetails > :first-child {
+  font-weight: bolder;
+}
+
+.custSuppIcon {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border-color: 0.5rem solid #febb23;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstHomeProdLine {
+  padding: 1rem 7rem;
+}
+
+.firstHomeProdLineTitle {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.firstHomeProdLineTitle > .hot {
+  font-weight: bolder;
+  width: 8rem;
+  font-size: larger;
+  margin-left: 0.67rem;
+}
+
+.firstHomeProdLineTitle > p {
+  width: 5rem;
+}
+
+.gray {
+  color: gray;
+}
+
+.box {
+  width: 12rem;
+  height: 1.9rem;
+  background-color: #f8f8f8;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firsthr {
+  margin: 0px 1rem;
+  width: 90rem;
+  opacity: 0.4;
+}
+
+.secondhr {
+  margin: 0px 1rem;
+  width: 10rem;
+  opacity: 0.4;
+}
+
+#productCard {
+  width: 15rem;
+  padding: 3rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+#imgfirstproductline {
+  width: 13rem;
+  height: 12rem;
+  border-radius: 0;
+}
+
+#productCard > p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.75rem;
+}
+
+.price {
+  display: flex;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+
+.price > :nth-child(2) {
+  font-size: small;
+  text-decoration: line-through;
+  margin-left: 0.45rem;
+  font-weight: 100;
+}
+
+.flexcards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.noyellow {
+  text-decoration: none;
+}
+
+.cartLength {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  background-color: red;
+  color: white;
+  margin-left: 1.3rem;
+}

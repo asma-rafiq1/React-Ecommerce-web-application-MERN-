@@ -1,0 +1,120 @@
+.parent-cont{
+    background-color: whitesmoke;
+    display: flex;
+}
+
+.firstbox{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 3rem;
+    margin: 4rem 4rem;
+    
+}
+
+.line{
+    text-align: center;
+    width: 100%;
+}
+
+
+.cartItemDisplay{
+    display: flex;
+    flex-direction: column;
+}
+
+.cartCardParent{
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.cartItemImage{
+    width: 11rem;
+    height: 10rem;
+    border-radius: 0;
+}
+
+.cartDetails{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.pricecart{
+    font-weight: bold;
+    
+}
+
+.quantityselector{
+    align-self: flex-start;
+
+}
+
+.secondbox{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 3rem;
+    margin: 4rem 4rem;
+     height: 50%;
+}
+
+.hr{
+    text-align: center;
+    width: 100%;
+}
+
+.cartempty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    font-weight: bolder;
+    background-color: blue;
+    color: black;
+}
+
+.pricecart{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondbox>*{
+    margin-top: 1rem;
+}
+
+.secondbox  h1{
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.checkout{
+    width: 80%;
+    height: 3rem;
+    background-color: green;
+    font-weight: 700;
+    text-align: center;
+    border: 0;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+.cards{
+    display: flex;
+    
+}
+
+.cards > *{
+    width: 100px;
+    margin: 5px;
+}

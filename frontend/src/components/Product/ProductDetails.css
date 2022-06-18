@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-size: .9rem;
+}
+
+.main{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+
+.firstpartmain{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* align-items: flex-start;    //it dosnt work */
+  margin-left: 50px;
+}
+
+hr{
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
+}
+
+.mid-hr{
+  
+}
+
+
+.details > h1, price{
+  word-wrap: break-word;
+
+}
+
+.description{
+  word-wrap: break-word;
+}
+
+.button{
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: orange;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 0;
+
+}
+
+
+.button > a{
+  color: black;
+  margin-bottom: .7rem;
+  font-weight: 400;
+  
+}
+
+.status{
+  color: green;
+  font-weight: 800;
+}
+
+
+
+.id{
+  font-size: 13px;
+  color: gray;
+}
+
+.margin-0{
+  margin-top: 0;
+}
+
+.proImage{
+  width: 400px;
+  height: 300px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  border-radius: 0;
+}
+
+.details-part-2{
+  display: flex;
+   justify-content: center;
+   margin-top: 10px;
+}
+
+.quantityselector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+ 
+}
+
+.quantityselector>p{
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+ 
+}
+
+.quantity{
+  background-color: rgb(63, 58, 58);
+  color: white;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0;
+}
+
+.review-section{
+  margin-top: 30px;
+
+}
+
+
+.review-section > h2{
+      text-align: center;
+        text-transform: uppercase;
+        
+}
+
+.reviewcards{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+.submitDialog {
+  display: flex;
+  flex-direction: column;
+}
+.submitDialogTextArea {
+  border: 1px solid rgba(0, 0, 0, 0.082);
+  margin: 1vmax 0;
+  outline: none;
+  padding: 1rem;
+  font: 300 1rem "Roboto";
+}
+
+.redColor{
+  color:red
+}
+
+.greenColor{
+  color: green;
+}
+
+.reviewcard{
+  width: 400px;
+  height: 200px;
+  border: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  margin-right: 30px;
+}
+
+.reviewcard-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.mid-hr{
+  text-align: center;
+  width: 300px;
+ 
+  /* //how to do hr in center */
+
+}
+
+.cartMsg{
+  font-size: larger;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}

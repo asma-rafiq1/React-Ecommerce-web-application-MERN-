@@ -1,0 +1,34 @@
+.pcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    
+    
+}
+
+
+.f-container{
+    padding: 3rem;
+    border: 1px solid orange;
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+select{
+    padding: .6rem 1.4rem;
+    margin-top: 1rem;
+    margin-left: .6rem;
+    outline: 0;
+    border: 1px solid gray;
+    border-radius: 2px;
+    width: 14.2rem;
+  
+    
+}

@@ -1,0 +1,34 @@
+footer{
+   display: flex;
+   justify-content: space-around;
+   background-color: #222121;
+   align-items: center;
+   padding: 3rem 2rem;
+   color: white;
+   font-size: .75rem;
+   height: 20vw;
+}
+
+h1, h3{
+  margin-bottom: .35rem;
+}
+
+.footerthirdsection{
+  margin-top: .55rem;
+}
+
+.footerthirdsection > p{
+  color: gray;
+  margin-top: .45rem;
+}
+
+footer > div > p{
+  margin-top: .45rem;
+  color: gray;
+}
+
+.footerlastsection{
+  text-decoration: underline;
+}
+
+

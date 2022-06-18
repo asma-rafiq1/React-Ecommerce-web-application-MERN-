@@ -1,0 +1,26 @@
+.loaderParent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.loader{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-top: 5px solid gray;
+  animation-name: loader;
+  animation-duration: 800ms;
+  animation-delay: -2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+@keyframes loader {
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+

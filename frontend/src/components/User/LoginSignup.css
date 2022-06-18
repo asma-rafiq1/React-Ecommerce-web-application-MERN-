@@ -1,0 +1,143 @@
+
+
+
+.parent-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+}
+
+
+.tab-parent{
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+
+}
+
+
+.first-child-container{
+height: 23rem;
+width: 23rem;
+padding: 2rem;
+border: 1px solid orange;
+border-radius: 3px;
+box-shadow: 0px 3px 8px gray;
+
+
+}
+
+.tab-link{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: larger;
+width: 100%;
+font-weight: bolder;
+}
+
+.tab-underline{
+    background-color: orange;
+    width: 50%;
+    height: 3px;
+    border: 0;
+    margin-top: 1rem;
+    
+}
+
+.right-side{
+   transform: translateX(100%);
+}
+
+.left-side{
+    transform: translateX(0%);
+}
+
+.icon-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.icon{
+    align-self: center;
+    margin-top: 1rem;
+    color: orange;
+}
+
+input{
+    padding: .6rem 1.4rem;
+    margin-top: 1rem;
+    margin-left: .6rem;
+    outline: 0;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+input[type=file]{
+    border: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+ 
+
+}
+
+a{
+    margin-top: 2rem;
+    align-self: flex-end;
+    font-size: .8rem;
+    color: orange;
+}
+
+
+button[type=submit]{
+     width: 8rem;
+     padding: .4rem;
+     align-self: center;
+     margin-top: 1.4rem;
+     outline: 0;
+     border: .5px solid orange;
+     background-color: white;
+    
+     border-radius: 1rem;
+    
+}
+
+.image-preview{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 3rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-top: 1rem;
+
+}
+
+
+button[type=submit]:hover{
+    background-color: orange;
+    transition: background-color .7s;
+}
+
+
+.error{
+    position: absolute;
+    margin-top: 4.2rem;
+    font-size: .6rem;
+    color: red;
+    margin-left: 1rem;
+    
+}
